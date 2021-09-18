@@ -85,7 +85,7 @@
                 </div>
 
                 <p>
-                    Gruas calkiní prueba
+                    Gruas calkiní prueba 2 con GitHub
                 </p>
 
                 <div class="links">
