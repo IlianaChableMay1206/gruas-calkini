@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registro.component.css']
 })
 export class RegistroComponent implements OnInit {
-
-  constructor() { }
-
+  public titulo: string;
+  constructor() {
+    this.titulo = 'registrate';
+   }
   ngOnInit(): void {
+
   }
 
 }
