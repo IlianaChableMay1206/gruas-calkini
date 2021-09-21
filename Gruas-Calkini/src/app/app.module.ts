@@ -9,11 +9,7 @@ import { LoginComponent } from './components/login/login.component';
   declarations: [
     AppComponent,
     LoginComponent,
-<<<<<<< HEAD
-    RegistroComponent
-=======
-    RegisterComponent
->>>>>>> 20c2f126f999e258b67a2c3d11975d01b9699d02
+
   ],
   imports: [
     BrowserModule
