@@ -13,8 +13,13 @@ class PruebasController extends Controller
 
     public function testOrm()
     {
+        echo "hola";
         $vehiculos = Vehiculo::all();
-        var_dump($vehiculos);
+        foreach($vehiculos as $vehiculo)
+        {
+            echo "<h1>".$vehiculo -> title."</h1>";
+            echo "<p>".$vehiculo -> content."<p>";
+        }
 
         die();
     }
