@@ -37,9 +37,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    //Relación de uno a muchos
+    //Relacion de uno a muchos
     public function vehiculos()
     {
-        return $this->hasMany('App\vehiculos');
+        return $this -> hasMany('App\Vehiculos');
     }
 }
