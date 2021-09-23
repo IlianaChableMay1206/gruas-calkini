@@ -19,3 +19,5 @@ Route::get('/pruebas', function()
 {
     return '<h2>Texto desde una ruta<h2>';
 });
+
+Route::get('/test-orm', 'PruebasController@testOrm');
