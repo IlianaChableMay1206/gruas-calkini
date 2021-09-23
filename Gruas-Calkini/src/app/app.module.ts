@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { routing, appRoutingProviders } from './app.routing';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -13,9 +14,12 @@ import { RegistroComponent } from './components/registro/registro.component';
     RegistroComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
-  providers: [],
+  providers: [
+    appRoutingProviders
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
