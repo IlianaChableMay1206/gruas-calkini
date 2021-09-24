@@ -1,49 +1,7 @@
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <img src="/assets/logo.jpeg" alt="" width="150" height="100" class="d-inline-block align-text-top">
-      <a class="navbar-brand" href="#">Gruas Calkini</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Categorias</a>
-          </li>
-        </ul>
-      </div>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Registro</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Nombre Usuario
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Crear entrada</a></li>
-            <li><a class="dropdown-item" href="#">Crear categoria</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Mi perfil</a></li>
-            <li><a class="dropdown-item" href="#">Ajustes</a></li>
-            <li><a class="dropdown-item" href="#">Salir</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <router-outlet> </router-outlet> 
- 
+<app-header></app-header>
+<app-sidebar></app-sidebar>
+<div class="content-wrapper">
+    <router-outlet></router-outlet>
+    
 </div>
+ <app-footer></app-footer>
