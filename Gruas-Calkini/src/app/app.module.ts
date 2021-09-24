@@ -8,6 +8,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
+import { AgregarComponent } from './pages/agregar/agregar.component';
+import { VehiculosComponent } from './pages/vehiculos/vehiculos.component';
 
 
 
@@ -18,6 +20,8 @@ import { ErrorComponent } from './components/error/error.component';
     RegistroComponent,
     HomeComponent,
     ErrorComponent,
+    AgregarComponent,
+    VehiculosComponent,
     
   ],
   imports: [
