@@ -1,143 +1,72 @@
 <div class="card">
-    <div class="card-header">
-        Agregar Vehiculo
-    </div>
-    <div class="card-body">
-
-        <form>
-
-            <div class="mb-3">
-              <label for="" class="form-label">Marca</label>
-              <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe la marca">
-            </div>
-
-            <div class="mb-3">
-                <label for="" class="form-label">Modelo</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el modelo del vehiculo">
-              </div>
-
-              <div class="mb-3">
-                <label for="formFile" class="form-label">Foto Del Vehículo</label>
-                <input class="form-control" type="file" id="formFile">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Dueño de la compañia</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el nombre">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Color</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el color">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Número placa</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el número de placa">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Tipo de servicio</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccione una opción...</option>
-                    <option value="1">Arrastre</option>
-                    <option value="2">.....</option>
-                  </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Lugar siniestro</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el lugar de siniestro">
-              </div>
-
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Descripción Del Servicio</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe la descripción del servicio"></textarea>
-              </div>
-
-
-              <div class="mb-3">
-                <label for="" class="form-label">Fecha de entrada</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Seleccione la fecha de entrada">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Pensión Corralon</label>
-                <div class="input-group mb-3">
-                    <span class="input-group-text">$</span>
-                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
-                  </div>
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Días pensión</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe los días de pensión">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Inventario</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el inventario">
-              </div>
-
-              <div class="mb-3">
-                <label for="formFile" class="form-label">Foto Del Inventario</label>
-                <input class="form-control" type="file" id="formFile">
-              </div>
-              
-              <div class="mb-3">
-                <label for="" class="form-label">Llaves</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccione una opción...</option>
-                    <option value="1">Si</option>
-                    <option value="2">No</option>
-                  </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Status entrega</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el estatus de entrega">
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Fecha entrega</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Seleccione la fecha de entrega">
-              </div>
-
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Otro Asunto</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe un asunto adicional"></textarea>
-              </div>
-
-              <div class="mb-3">
-                <label for="" class="form-label">Sucursal Vehiculo</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe la sucursal del vehiculo">
-              </div>
-              <div class="mb-3">
-                <label for="" class="form-label">ID Usuario</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el id del usuario">
-              </div>
-            <div class="mb-3">
-                <label for="" class="form-label">ID Chofer</label>
-                <input type="text"
-                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="Escribe el id del chofer">
-              </div>
-              <div class="btn-group" role="group" aria-label="">
-                  <button type="button" class="btn btn-success">Agregar</button>
-                  <button type="button" class="btn btn-primary">Cancelar</button>
-              </div>
-        </form>
-    </div>
+  <div class="card-header">
+      Vehiculos
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a>
+          <button class="btn btn-success me-md-2" type="button" routerLink="/agregarvehiculo" >Agregar Vehiculo</button>
+        </a>
+        </div>
+  </div>
+  <div class="table-responsive">
+      <table class="table align-middle">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>ID Super Uusuario</th>
+                  <th>ID Chofer</th>
+                  <th>Marca</th>
+                  <th>Modelo</th>
+                  <th>Foto Vehiculo</th>
+                  <th>Dueño Compania</th>
+                  <th>Color</th>
+                  <th>Placas</th>
+                  <th>Tipo Servicio</th>
+                  <th>Lugar Siniestro</th>
+                  <th>Descripción Servicio</th>
+                  <th>Fecha Entrada</th>
+                  <th>Pensión Corralon</th>
+                  <th>Días Pensión</th>
+                  <th>Inventario</th>
+                  <th>Foto Inventario</th>
+                  <th>Llaves</th>
+                  <th>Status Entrega</th>
+                  <th>Fecha Entrega</th>
+                  <th>Otro Asunto</th>
+                  <th>Sucursal Vehiculo</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>NISSAN</td>
+                  <td>XXX</td>
+                  <td>FOTO</td>
+                  <td>JOSÉ</td>
+                  <td>AZUL</td>
+                  <td>123-AB</td>
+                  <td>TIPO SERVICIO</td>
+                  <td>CAMPECHE</td>
+                  <td>XXXXXX</td>
+                  <td>FECHA</td>
+                  <td>$300</td>
+                  <td>4</td>
+                  <td>XXXX</td>
+                  <td>FOTO</td>
+                  <td>SI LLAVES</td>
+                  <td>LIBRE</td>
+                  <td>FECHA</td>
+                  <td>NO SE XXXXX</td>
+                  <td>GRUAS CALKINI</td>
+                  <td>
+                      <button type="button" class="btn btn-warning" routerLink = "/editar-vehiculo/1">Editar</button>
+                  </td>
+                  <td><button type="button" class="btn btn-danger">Borrar</button></td>
+              </tr>
+          </tbody>
+      </table>
+      
+  </div>
+  
 </div>

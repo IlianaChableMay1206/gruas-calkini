@@ -5,6 +5,7 @@ import {SharedModule} from "./shared/shared.module";
 
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
+import { ModulosModule } from './modulos/modulos.module';
 
 
 
@@ -18,7 +19,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     routing,
     SharedModule,
-    PagesModule
+    PagesModule,
+    ModulosModule
   ],
   providers: [
     appRoutingProviders

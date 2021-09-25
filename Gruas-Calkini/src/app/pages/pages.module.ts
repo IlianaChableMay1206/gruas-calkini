@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { AgregarComponent } from './agregar/agregar.component';
 import { VehiculosComponent } from './vehiculos/vehiculos.component';
 import { GruasComponent } from './gruas/gruas.component';
 import { ChoferesComponent } from './choferes/choferes.component';
+
+
+
 
 
 
@@ -12,7 +16,7 @@ import { ChoferesComponent } from './choferes/choferes.component';
     AgregarComponent,
     VehiculosComponent,
     GruasComponent,
-    ChoferesComponent
+    ChoferesComponent,
   ],
   exports:[
     AgregarComponent,
@@ -21,7 +25,8 @@ import { ChoferesComponent } from './choferes/choferes.component';
     ChoferesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class PagesModule { }
