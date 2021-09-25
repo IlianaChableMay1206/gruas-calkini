@@ -1,14 +1,14 @@
 // IMPORTS NECESARIOS
 import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import { AgregarvehiculoComponent } from "./modulos/agregarvehiculo/agregarvehiculo.component";
+
 
 //IMPORTAR COMPONENTES
 import { AgregarComponent } from "./pages/agregar/agregar.component";
 import { ChoferesComponent } from "./pages/choferes/choferes.component";
 import { GruasComponent } from "./pages/gruas/gruas.component";
 import { VehiculosComponent } from "./pages/vehiculos/vehiculos.component";
-
+import { AgregarvehiculoComponent } from "./modulos/agregarvehiculo/agregarvehiculo.component";
 
 //DEFINIR RUTAS
 const appRoutes: Routes = [
