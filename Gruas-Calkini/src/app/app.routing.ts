@@ -8,13 +8,14 @@ import { RegistroComponent } from "./components/registro/registro.component";
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 
+
 //DEFINIR RUTAS
-const appRoutes: Routes =[
-    {path: '', component: LoginComponent},
-    {path: 'inicio', component: LoginComponent},
-    {path: 'login', component: LoginComponent},
-    {path: 'registro', component: RegistroComponent},
-    {path: '**', component: ErrorComponent}
+const appRoutes: Routes = [
+    { path: '', component: LoginComponent },
+    { path: 'inicio', component: LoginComponent },
+    { path: 'login', component: LoginComponent },
+    { path: 'registro', component: RegistroComponent },
+    { path: '**', component: ErrorComponent },
 ];
 
 //EXPORTAR CONFIGURACIÓN
