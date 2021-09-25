@@ -3,19 +3,18 @@ import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
 //IMPORTAR COMPONENTES
-import { LoginComponent } from "./components/login/login.component";
-import { RegistroComponent } from "./components/registro/registro.component";
-import { HomeComponent } from './components/home/home.component';
-import { ErrorComponent } from './components/error/error.component';
+import { AgregarComponent } from "./pages/agregar/agregar.component";
+import { ChoferesComponent } from "./pages/choferes/choferes.component";
+import { GruasComponent } from "./pages/gruas/gruas.component";
+import { VehiculosComponent } from "./pages/vehiculos/vehiculos.component";
 
 
 //DEFINIR RUTAS
 const appRoutes: Routes = [
-    { path: '', component: LoginComponent },
-    { path: 'inicio', component: LoginComponent },
-    { path: 'login', component: LoginComponent },
-    { path: 'registro', component: RegistroComponent },
-    { path: '**', component: ErrorComponent },
+    { path: '', component: AgregarComponent },
+    { path: 'vehiculos', component: VehiculosComponent },
+    { path: 'gruas', component: GruasComponent },
+    { path: 'choferes', component: ChoferesComponent }
 ];
 
 //EXPORTAR CONFIGURACIÓN
